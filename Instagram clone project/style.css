@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+nav{
+    background-color: white;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
+.icons{
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+   
+}
+.icons ul{
+display: flex;
+gap: 30px;
+list-style: none;
+padding: 10px;
+
+align-items: center;
+
+
+}
+i{
+    color: black;
+    font-size: 22px ;
+    text-align: center;
+    
+}
+
+#profilephoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px red;  
+}
+
+
+
+.story{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.nick{
+    margin-top: 5px;
+}
+
+.lefticons i{
+    margin-right: 5px;
+}
+
+.posts h5{
+    margin: 10px;
+    font-size: 16px;
+}
+.comment{
+    margin-top: -30px;
+}
+.head-nick{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.head-nick h5{
+ margin-left: 45px;
+}
+.profile-img {
+    width: 40px; /* Profil fotoğrafı boyutu */
+    height: 40px; /* Profil fotoğrafı boyutu */
+    border-radius: 50%; /* Yuvarlak profil fotoğrafı */
+}
+.recommendation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Öneri öğeleri arasındaki boşluk */
+}
+.recommendation img {
+    margin-right: 10px; /* Profil fotoğrafı ile isim arasındaki boşluk */
+}
+.recommendation .follow-btn {
+    margin-left: auto; /* Takip et butonunu sağa yasla */
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    
+    <nav >
+        <div class="logo">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="">
+        </div>
+        <div class="search">
+            <form class="">
+                <input
+                  class="form-control mr-sm-2 empty"
+                  type="search"
+                  placeholder="Ara"
+                  style="font-family: Arial, FontAwesome; height: 28px; width: 216px"
+                  aria-label="Search"
+                />
+            </form>
+        </div>
+        <div class="icons">
+            <ul>
+                <li><a href=""><i class="fas fa-home"></i> </a></li>
+                <li><a href=""><i class="fab fa-facebook-messenger"></i> </a></li>
+                <li><a href=""><i class="far fa-compass"></i> </a></li>
+                <li><a href=""><i class="far fa-heart"></i> </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hikayeler ve Postlar Bölümü -->
+    <div  style="padding-top: 70px" class="container ">
+        <div class="row">
+            <!-- Hikayeler -->
+            <div class="col-12 col-md-6">
+                <div class="card stories mt-3">
+                    <div class="card-body d-flex">
+                        <!-- Story Tekrarları -->
+                        <div class="story">
+                            <div class="photo">
+                                <img id="profilephoto" src="img/elonpp.jpg" alt="">
+                            </div>
+                            <div class="nick">  
+                                <h6>elonmussk</h6>
+                            </div>
+                        </div>
+                        <div class="story">
+                            <div class="photo">
+                                <img id="profilephoto" src="img/prfphoto.jpg" alt="">
+                            </div>
+                            <div class="nick">
+                                <h6>berkaycifci</h6>
+                            </div>
+                        </div>
+                        <div class="story">
+                            <div class="photo">
+                                <img id="profilephoto" src="img/elonpp.jpg" alt="">
+                            </div>
+                            <div class="nick">  
+                                <h6>elonmussk</h6>
+                            </div>
+                        </div>
+                        <div class="story d-none d-lg-block">
+                            <div class="photo">
+                                <img id="profilephoto" src="img/prfphoto.jpg" alt="">
+                            </div>
+                            <div class="nick">
+                                <h6>berkaycifci</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Bölümü -->
+                <div class="card posts mt-5">
+                    <div class="card-header d-flex align-items-center">
+                        <img id="profilephoto" src="img/elonpp.jpg" >
+                        <h5>elonmussk</h5>
+                    </div>
+                    <div class="card-img-top">
+                        <img src="img/elonpost.jpg" alt="" width="100%">
+                    </div>
+                    <!-- post-iconları -->
+                    <div class="card-body post-icons d-flex justify-content-between">
+                        <div class="lefticons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <div class="righticon">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body comment d-flex flex-column">
+                        <h5><b>elonmussk</b> ve <b>900.182 diğer kişi</b> beğendi</h5>
+
+                        <span><b>elonmussk</b>  Thats's just beautiful!</span>
+                        <span><b>spacex</b>  when are we moving?</span>
+                        <span style="color: rgb(179, 178, 178); font-size: 12px;">10 HOURS AGO</span>
+                    </div>
+
+                    <div class="card-body">
+                        <form class="d-flex align-items-center">
+                            <input type="text" class="form-control me-2" placeholder="Yorum ekle..." aria-label="Add a comment">
+                            <button class="btn btn-primary" type="submit">Paylaş</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card posts mt-5">
+                    <div class="card-header d-flex align-items-center">
+                        <img id="profilephoto" src="img/elonpp.jpg" >
+                        <h5>elonmussk</h5>
+                    </div>
+                    <div class="card-img-top">
+                        <img src="img/elonpost2.jpg" alt="" width="100%">
+                    </div>
+                    <!-- post-iconları -->
+                    <div class="card-body post-icons d-flex justify-content-between">
+                        <div class="lefticons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </div>
+                        <div class="righticon">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body comment d-flex flex-column">
+                        <h5><b>elonmussk</b> ve <b>900.182 diğer kişi</b> beğendi</h5>
+
+                        <span><b>elonmussk</b>  Thats's just beautiful!</span>
+                        <span><b>spacex</b>  when are we moving?</span>
+                        <span style="color: rgb(179, 178, 178); font-size: 12px;">10 HOURS AGO</span>
+                    </div>
+
+                    <div class="card-body">
+                        <form class="d-flex align-items-center">
+                            <input type="text" class="form-control me-2" placeholder="Yorum ekle..." aria-label="Add a comment">
+                            <button class="btn btn-primary" type="submit">Paylaş</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Kapanış col-6 -->
+            
+            <!-- Öneriler Kolonu -->
+            <div class="d-none d-md-block col-4 ">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <div class="head-nick d-flex align-items-center ">
+                            <img id="profilephoto" src="img/prfphoto.jpg" alt="">
+                            <h5>berkaycifci</h5>
+                        </div>
+                        <h5 class="card-title">Senin için Öneriler</h5>
+                        <div class="recommendation">
+                            <img src="https://picsum.photos/id/237/200/300" alt="kablosuzbeyin" class="profile-img">
+                            <span class="flex-grow-1">kablosuzbeyin</span>
+                            <button class="btn text-primary follow-btn">Takip Et</button>
+                        </div>
+                        <div class="recommendation">
+                            <img src="https://picsum.photos/id/233/200/300" alt="codecraftercom" class="profile-img">
+                            <span class="flex-grow-1">codecraftercom</span>
+                            <button class="btn text-primary follow-btn">Takip Et</button>
+                        </div>
+                        <div class="recommendation">
+                            <img src="https://picsum.photos/id/232/200/300" alt="navlungotr" class="profile-img">
+                            <span class="flex-grow-1">navlungotr</span>
+                            <button class="btn text-primary follow-btn">Takip Et</button>
+                        </div>
+                        <div class="recommendation">
+                            <img src="https://picsum.photos/id/231/200/300" alt="podfresco" class="profile-img">
+                            <span class="flex-grow-1">podfresco</span>
+                            <button class="btn text-primary follow-btn">Takip Et</button>
+                        </div>
+                        <div class="recommendation">
+                            <img src="https://picsum.photos/id/25/200/300" alt="Kodluyoruz Junior" class="profile-img">
+                            <span class="flex-grow-1">Kodluyoruz Junior</span>
+                            <button class="btn text-primary follow-btn">Takip Et</button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Kapanış col-6 -->
+        </div> <!-- Kapanış row -->
+    </div> <!-- Kapanış container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+Hg39L5giPXCMYk9ElgHtW8EG8Ejh" crossorigin="anonymous"></script>
+</body>
+</html>
